@@ -65,7 +65,8 @@ Then configure the rules you want to use under the rules section.
 - `no-native` In an ES5 environment, make sure to create a `Promise` constructor before using.
 - `no-nesting` Avoid nested .then() or .catch() statements
 - `no-promise-in-callback` Avoid using promises inside of callbacks
-- `no-callback-in-promise` Avoid calling `cb()` inside of a `then()` (use [nodeify](https://www.npmjs.com/package/nodeify)] instead)
+- `no-callback-in-promise` Avoid calling `cb()` inside of a `then()` (use [
+](https://www.npmjs.com/package/nodeify) instead)
 - `avoid-new` Avoid creating `new` promises outside of utility libs (use [pify](https://www.npmjs.com/package/pify) instead)
 
 ### Async/Await Rules
